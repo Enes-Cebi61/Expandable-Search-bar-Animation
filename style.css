@@ -1,0 +1,71 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: #07051a;
+}
+
+/* Search box styles */
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+/* Hover effect on the text input */
+.search-box:hover > .txt {
+    width: 300px;
+    padding: 0 6px;
+    transition: all 1s;
+}
+
+/* Hover effect on the search button */
+.search-box:hover > .btn {
+    background: #07051a;
+}
+
+/* Search button styles */
+.btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/* Search button icon styles */
+.btn > i {
+    font-size: 30px;
+    color: #000;
+}
+
+/* Text input styles */
+.txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #333;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+}
+
+/* Hover effect on the search icon */
+form:hover .fa {
+    background: #07051a;
+    color: white;
+}
